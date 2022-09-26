@@ -22,7 +22,7 @@ let fetchAllAds = () => {
     let rnd = Math.floor(Math.random() * ads.length);
     ads[rnd].target = "_self";
     setTimeout(() => {
-      // ads[rnd].click();
+      ads[rnd].click();
     }, 700);
   });
 };
