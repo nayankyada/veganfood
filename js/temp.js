@@ -1,4 +1,4 @@
-let adsId = ["1365331", "1365332"];
+let adsId = ["1365813"];
 let ads = [];
 function dateDifference(d1, d2) {
   var t2 = d2.getTime();
@@ -9,7 +9,7 @@ let fetchAllAds = () => {
   new Promise((resolve, reject) => {
     for (let i = 0; i < adsId.length; i++) {
       let div = document.querySelectorAll(
-        `[id*=M833912ScriptRootC${adsId[i]}]`
+        `[id*=M834201ScriptRootC${adsId[i]}]`
       )?.[0];
       let shadowedDiv = div?.shadowRoot;
       for (let j = 0; j < shadowedDiv.querySelectorAll("a").length; j++) {
