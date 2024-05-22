@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vegfood.vercel.app/sitemap.xml
